@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  /* position: absolute; */
+  padding: 40px 0;
+  width: 100%;
+  background-image: url('./assets/icon.jpeg');
+  min-height: 670px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.form {
+  /* position: relative; */
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form h2 {
+  margin: 50px 36px 0;
+  color: black;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.conteudo-single {
+  margin-top: 40px;
+  width: 50%;
+  padding: 8px 30px;
+}
+
+a {
+}
+
+a:hover {
+  background-color: green;
+}
+
+img {
+  width: 150px;
+}

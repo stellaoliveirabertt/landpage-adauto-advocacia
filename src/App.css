@@ -8,12 +8,25 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #header {
   background-image: url("../public/assets/justice-statue-desktop.jpg");
-  background-position-x: 100%;
-  background-size: cover;
+}
+
+input:focus,
+textarea:focus {
+  transform: scale(1.05);
 }
 
 .shadow-lg {
   box-shadow: 0 10px 15px -3px hsla(210, 50%, 20%, .4), 0 4px 6px -4px hsla(210, 50%, 20%, .6);
+}
+
+@media (max-width: 768px) {
+  .no-shadow-on-mobile {
+    box-shadow: none;
+  }
 }

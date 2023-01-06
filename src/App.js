@@ -71,15 +71,13 @@ export function App() {
 
           {/* Título e leading */}
           <div className='md:w-2/3 w-full'>
-            <h2 className='text-2xl lg:text-4xl leading-tight max-w-3xl font-semibold my-6 text-yellow-600 tracking-tight'>
-              Para chegar aonde quer que seja, não é preciso utilizar força,
-              basta aplicar a razão.
+            <h2 className='text-2xl lg:text-5xl leading-tight max-w-3xl font-semibold my-6 text-yellow-600 tracking-tight'>
+            Escritório Especializado em Ação de Inventário Judicial e Extrajudicial
+              
             </h2>
-            <p className='mb-8 text-white'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-              magni natus, exercitationem aspernatur placeat ratione possimus
-              debitis alias laborum quia deleniti eos fugit tempora corrupti,
-              quos dolores perferendis.
+            <p className='mb-8 text-white text-2xl' >
+              Envie uma mensagem pelo WhatsApp para esclarecer as suas dúvidas 
+              e agendar uma consulta presencial ou por teleconferência.
             </p>
           </div>
 
@@ -105,8 +103,11 @@ export function App() {
               <h3 className='font-semibold md:text-left md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
                 Adauto Campos
               </h3>
+              <p className='mb-0 md:text-left text-center'>
+                Advogado Especialista em Direito de Família e Sucessões, Direito Criminal, 
+                </p>
               <p className='mb-4 md:text-left text-center'>
-                Advogado especialista em ...
+                Direito Previdenciário, Direito Trabalhista e Gestão Jurídica da Empresa.
               </p>
               <a
                 className='active:bg-green-700 active:shadow-lg align-center bg-green-500 duration-150 ease-in-out flex focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 font-medium hover:bg-green-600 hover:shadow-lg inline-block px-4 py-2.5 rounded shadow-md transition w-fit'
@@ -119,7 +120,7 @@ export function App() {
                   src='./assets/whatsapp-logo.svg'
                 />
                 <p className='font-semibold leading-normal text-white text-sm'>
-                  Conversar por WhatsApp
+                  Fale agora com o Advogado no WhatsApp
                 </p>
               </a>
             </div>
@@ -129,49 +130,118 @@ export function App() {
         {/* Seção com cards */}
         <section className='bg-white p-8'>
           <h3 className='font-semibold leading-tight lg:text-4xl text-2xl text-center text-yellow-600 tracking-tight'>
-            Ratione possimus debitis alias laborum
+          Nosso escritório conta com uma ampla experiência em Direito de Família, 
           </h3>
+
+          <h3 className='font-semibold leading-tight lg:text-4xl text-2xl text-center text-yellow-600 tracking-tight'>
+          atuando de forma ágil e segura em todas as etapas do processo e em qualquer lugar do Brasil.
+          </h3>
+
           <p className='text-center'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-            magni natus, exercitationem.
+          Em qualquer momento da sua vida e quando você precisar, 
+          nós podemos te ajudar a conquistar os seus Direitos.
           </p>
 
           {/* Cards */}
           <div className='flex flex-wrap gap-4 justify-center pt-8'>
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
+            <img
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/whatsapp.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Fácil Contato
+              </p>
               <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Envie uma mensagem pelo WhatsApp para esclarecer as suas dúvidas 
+              e agendar uma consulta presencial ou por teleconferência.
               </p>
             </div>
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
+            <img
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/digital.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Contratação 100% digital
+              </p>
               <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              O Contrato de Honorários, procuração e demais documentos 
+              para a instrução do processo são enviados via email.
+              </p>
+            </div>
+            <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm position'>
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/reunião.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Reuniões pelo WhatsApp
+              </p>
+              <p className='text-white mb-4 text-center text-lg'>
+              Agende um horário e fale com nosso time de advogados pelo WhatsApp, 
+              por vídeo ou chat, sempre que necessário.
               </p>
             </div>
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/online.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Ajuizamento e acompanhamento online das ações
+              </p>
               <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Protocolamos processos em todo o Brasil através do
+              Processo Judicial Eletrônico de cada Tribunal.
               </p>
             </div>
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/comunicação.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Comunicação Acessível
+              </p>
               <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Nosso escritório prioriza uma comunicação acessível aos clientes, 
+              com linguagem simples a fim de “descomplicar o direito”.
               </p>
             </div>
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
-              <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/handshake.png'
+            />
+            <p className='font-semibold md:text-center md:mt-0 mt-2 text-2xl text-center text-yellow-600 tracking-tight'>
+              Atendimento Personalizado
               </p>
-            </div>
-            <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
               <p className='text-white mb-4 text-center text-lg'>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Você receberá atendimento individualizado e personalizado, 
+              tendo acesso ao WhatsApp do seu advogado.
               </p>
             </div>
           </div>
@@ -213,9 +283,11 @@ export function App() {
           </div>
 
           <p className='font-semibold leading-tight lg:text-4xl mb-6 text-2xl text-center text-white tracking-tight'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-            magni natus, exercitationem aspernatur placeat ratione possimus
-            debitis alias laborum quia deleniti.
+          O Advogado Especialista cuida das questões jurídicas do caso, 
+          mas também precisa ter a sensibilidade para entender 
+          os aspectos emocionais presentes em cada situação, 
+          auxiliando seus clientes a tomarem atitudes e decisões corretas 
+          e pautadas na lei, sem se deixarem levar sentimentos envolvidos.
           </p>
 
           <a
@@ -229,7 +301,7 @@ export function App() {
               src='./assets/whatsapp-logo.svg'
             />
             <p className='font-semibold leading-normal text-white text-sm'>
-              Conversar por WhatsApp
+              Fale conosco agora no WhatsApp
             </p>
           </a>
         </section>
@@ -243,39 +315,126 @@ export function App() {
           {/* Cards */}
           <div className='flex flex-wrap gap-4 justify-center pt-8'>
             <div className='block p-6 rounded-lg shadow-lg w-full md:w-1/4'>
-              <h4 className='font-bold mb-4 text-lg text-sky-900'>
-                Serviço #1
+
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/Inventario.png'
+            />
+
+              <h4 className='font-bold mb-4 text-lg text-sky-900 text-center'>
+                Inventário
               </h4>
               <ul className='list-disc list-inside'>
-                <li>Item #1</li>
-                <li>Item #2</li>
-                <li>Item #3</li>
-                <li>Item #4</li>
-                <li>Item #5</li>
+              <li>Inventário judicial</li>
+                <li>Arrolamento judicial</li>
+                <li>Sobrepartilha</li>
+                <li>Planejamento sucessório</li>
+                <li>Destituição de inventariante</li>
+                <li>Anulação de testamento</li>
+                <li>Testamento e doações</li>
+                <li>Ação de bens sonegados</li>
+                <li>Deserdação</li>
+                <a
+            className='active:bg-green-700 active:shadow-lg align-center bg-green-500 duration-150 ease-in-out flex focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 font-medium hover:bg-green-600 hover:shadow-lg mx-auto px-4 py-2.5 rounded shadow-md transition w-fit'
+            href='#formulario'
+          >
+            <img
+              className='h-5 mr-2'
+              loading='lazy'
+              alt='WhatsApp'
+              src='./assets/whatsapp-logo.svg'
+            />
+            <p className='font-semibold leading-normal text-white text-sm'>
+              Conversar por WhatsApp
+            </p>
+          </a>
+                                
               </ul>
             </div>
             <div className='block p-6 rounded-lg shadow-lg w-full md:w-1/4'>
-              <h4 className='font-bold mb-4 text-lg text-sky-900'>
-                Serviço #2
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/family.png'
+            />
+              <h4 className='font-bold mb-4 text-lg text-sky-900 text-center'>
+                Direito de Família
               </h4>
               <ul className='list-disc list-inside'>
-                <li>Item #1</li>
-                <li>Item #2</li>
-                <li>Item #3</li>
-                <li>Item #4</li>
-                <li>Item #5</li>
+                <li>Divórcio</li>
+                <li>União Estável</li>
+                <li>Pensão Alimentícia</li>
+                <li>Guarda dos filhos</li>
+                <li>Alteração Regime de Bens</li>
+                <li>Investigação de Paternidade</li>
+                <li>Regulamentação de Visitas</li>
+                <li>Interdição / Curatela</li>
+                <li>Alimentos | Revisão |  Exoneração</li>
+                <a
+            className='active:bg-green-700 active:shadow-lg align-center bg-green-500 duration-150 ease-in-out flex focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 font-medium hover:bg-green-600 hover:shadow-lg mx-auto px-4 py-2.5 rounded shadow-md transition w-fit'
+            href='#formulario'
+          >
+            <img
+              className='h-5 mr-2'
+              loading='lazy'
+              alt='WhatsApp'
+              src='./assets/whatsapp-logo.svg'
+            />
+            <p className='font-semibold leading-normal text-white text-sm'>
+              Conversar por WhatsApp
+            </p>
+          </a>
+                
+
               </ul>
             </div>
             <div className='block p-6 rounded-lg shadow-lg w-full md:w-1/4'>
-              <h4 className='font-bold mb-4 text-lg text-sky-900'>
-                Serviço #3
+
+            <img
+              
+              className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              width= '100px' 
+              loading='lazy'
+              alt='whatsapp'
+              src='./assets/trabalhista.png'
+            />
+
+              <h4 className='font-bold mb-4 text-lg text-sky-900 text-center'>
+                Cível e Trabalhista
               </h4>
               <ul className='list-disc list-inside'>
-                <li>Item #1</li>
-                <li>Item #2</li>
-                <li>Item #3</li>
-                <li>Item #4</li>
-                <li>Item #5</li>
+                <li>Indenização por Dano Moral</li>
+                <li>Defesa do Consumidor</li>
+                <li>Reparação de Danos</li>
+                <li>Aposentadoria</li>
+                <li>Auxilio-Doença</li>
+                <li>FGTS</li>
+                <li>Indenizações</li>
+                <li>Elaboração de Contratos</li>
+                <li>Regularização de Imóveis</li>
+                <a
+            className='active:bg-green-700 active:shadow-lg align-center bg-green-500 duration-150 ease-in-out flex focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 font-medium hover:bg-green-600 hover:shadow-lg mx-auto px-4 py-2.5 rounded shadow-md transition w-fit'
+            href='#formulario'
+          >
+            <img
+              className='h-5 mr-2'
+              loading='lazy'
+              alt='WhatsApp'
+              src='./assets/whatsapp-logo.svg'
+            />
+            <p className='font-semibold leading-normal text-white text-sm'>
+              Conversar por WhatsApp
+            </p>
+          </a>
+
+                
               </ul>
             </div>
           </div>
@@ -306,7 +465,7 @@ export function App() {
                       Adauto Campos
                     </h2>
                     <p className='font-semibold mb-3 md:mb-4 mt-0 text-white text-xl'>
-                      OAB 0000/AA e 0000/AA
+                      OAB 189.438/SP
                     </p>
                   </div>
 
@@ -340,17 +499,20 @@ export function App() {
 
                   {/* Texto descritivo */}
                   <p className='text-white mb-10 md:mb-4'>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti quos dolores et quas molestias excepturi sint
-                    occaecati cupiditate non provident, similique sunt in culpa
-                    qui officia deserunt mollitia animi, id est laborum et
-                    dolorum fuga. Et harum quidem rerum facilis est et expedita
-                    distinctio. Nam libero tempore, cum soluta nobis est
-                    eligendi optio cumque nihil impedit quo minus id quod maxime
-                    placeat facere possimus, omnis voluptas assumenda est, omnis
-                    dolor repellendus. Temporibus autem quibusdam et aut
-                    officiis debitis aut rerum necessitatibus saepe eveniet.
+                  Adauto Campos é Advogado desde 2001, inscrito na OAB/SP sob o nº 189.438, 
+                  é especialista em Direito de Família e Sucessões, Direito Previdenciário, 
+                  Direito Trabalhista e Gestão Jurídica da Empresa. 
+                  </p>
+
+                  <p className='text-white mb-10 md:mb-4'>
+                  É um escritório brasileiro que pratica a advocacia com visão de negócios 
+                  e foco em resultados. 
+                  </p>
+
+                  <p className='text-white mb-10 md:mb-4'>
+                  Com um time de profissionais trabalhando de forma integrada, lidamos com casos rotineiros 
+                  e multidisciplinares complexos que exigem os talentos coordenados de profissionais 
+                  experientes em diferentes áreas.
                   </p>
                 </div>
               </div>
@@ -361,9 +523,14 @@ export function App() {
         {/* Seção com frase */}
         <section className='bg-white mb-0 mt-6 md:mb-12 md:mt-0 p-8'>
           <p className='leading-tight lg:text-5xl text-center text-3xl text-yellow-600 tracking-tight'>
-            &ldquo;A justiça é o destino.
-            <br className='block md:hidden' /> A lei é o caminho.&rdquo;
+            &ldquo; Se a justiça é o nosso destino,
+            <br className='block md:hidden' /> o Direito é o caminho.&rdquo; 
+          
           </p>
+          <p className='leading-tight lg:text-4xl text-center text-3xl text-black-500 tracking-tight'>
+            &ldquo; Fernando
+            <br className='block md:hidden' /> Scheuermann.&rdquo; 
+            </p>
         </section>
 
         {/* Formulário */}
@@ -419,11 +586,16 @@ export function App() {
                     required
                   >
                     <option value='none' defaultValue>
-                      Selecione o serviço
+                      Selecione o Assunto
                     </option>
-                    <option value='1'>Serviço #1</option>
-                    <option value='2'>Serviço #2</option>
-                    <option value='3'>Serviço #3</option>
+                    <option value='1'>Inventário</option>
+                    <option value='2'>Divórcio</option>
+                    <option value='3'>Trabalhista</option>
+                    <option value='3'>Dano Moral</option>
+                    <option value='3'>Indenização</option>
+                    <option value='3'>Consumidor</option>
+                    <option value='3'>Criminal</option>
+                    <option value='3'>Outros Assunto</option>
                   </select>
                 </div>
                 <div className='mb-3'>

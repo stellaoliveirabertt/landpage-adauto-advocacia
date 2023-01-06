@@ -29,5 +29,32 @@ textarea:focus {
   .no-shadow-on-mobile {
     box-shadow: none;
   }
+  #whatsapp {
+    width: 100px;
+  }
+  #reunião {
+    width: 100px;
+  }
+  #online {
+    width: 100px;
+  }
+  #handshake {
+    width: 100px;
+  }
+  #comunicação {
+    width: 100px;
+  }
+  #digital {
+    width: 100px;
+  }
+  #Inventario {
+    width: 100px;
+  }
+  #family {
+    width: 100px;
+  }
+  #trabalhista {
+    width: 100px;
+  }
 }
 

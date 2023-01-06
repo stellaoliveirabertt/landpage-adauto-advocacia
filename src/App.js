@@ -147,6 +147,7 @@ export function App() {
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
             <img
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='whatsapp'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -163,6 +164,7 @@ export function App() {
             <div className='bg-sky-900 block p-6 rounded-lg shadow-lg max-w-sm'>
             <img
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='digital'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -180,6 +182,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='reunião'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -197,6 +200,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='online'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -214,6 +218,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='comunicação'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -231,6 +236,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='handshake'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -319,6 +325,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='Inventario'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -359,6 +366,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='family'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'
@@ -400,6 +408,7 @@ export function App() {
             <img
               
               className='mb-6 md:w-3/12 md:mb-0 md:mx-center mx-auto sm:w-6/12 w-8/12'
+              id='trabalhista'
               width= '100px' 
               loading='lazy'
               alt='whatsapp'

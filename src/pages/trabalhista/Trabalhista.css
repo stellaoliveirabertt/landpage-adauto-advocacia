@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  background-image: url("../../../public/assets/justice-statue-desktop.jpg");
+}
+
+input:focus,
+textarea:focus {
+  transform: scale(1.05);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px hsla(210, 50%, 20%, .4), 0 4px 6px -4px hsla(210, 50%, 20%, .6);
+}
+
+@media (max-width: 768px) {
+  .no-shadow-on-mobile {
+    box-shadow: none;
+  }
+  #whatsapp {
+    width: 100px;
+  }
+  #reunião {
+    width: 100px;
+  }
+  #online {
+    width: 100px;
+  }
+  #handshake {
+    width: 100px;
+  }
+  #comunicação {
+    width: 100px;
+  }
+  #digital {
+    width: 100px;
+  }
+  #Inventario {
+    width: 100px;
+  }
+  #family {
+    width: 100px;
+  }
+  #trabalhista {
+    width: 100px;
+  }
+}
+

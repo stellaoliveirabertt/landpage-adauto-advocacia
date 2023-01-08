@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
+import './Trabalhista.css';
 
-export function App() {
+export function Trabalhista() {
   // const texto = `*Nome*\n${nome}\n\n*Telefone*\n${telefone}\n\n*E-mail*\n${email}*Serviço*\n${servico}\n*Mensagem*\n${mensagem}`;
 
   const [nome, setNome] = useState('');

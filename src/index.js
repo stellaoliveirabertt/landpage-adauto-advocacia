@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/Trabalhista",
-    element: <Trabalhista />
+    element: <Trabalhista />,
   },
   {
     path: "/Previdenciario",
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

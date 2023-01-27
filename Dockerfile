@@ -1,19 +1,10 @@
 FROM node:18.12.1
-WORKDIR /app 
-
-COPY package*.json ./
-RUN npm install
-
+ENV NODE_ENV=production
+WORKDIR /usr/src/app
+COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+RUN npm install --production --silent && mv node_modules ../
 COPY . .
-
-RUN npm run build
-
-COPY . .
-
-# COPY ./docker-entrypoint.sh /
-
-# RUN chmod +x /docker-entrypoint.sh
-
-# ENTRYPOINT ["/docker-entrypoint.sh"]
-
-EXPOSE 80
+EXPOSE 3000
+RUN chown -R node /usr/src/app
+USER node
+CMD ["npm", "start"]
